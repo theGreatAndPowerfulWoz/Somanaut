@@ -1,0 +1,167 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(https://wallpapercave.com/wp/K0HCxt0.jpg);
+	background-size:cover;
+}
+.header{
+	margin-top: -10px;
+}
+.logo{
+	display: block;
+    margin: auto;
+    width: 50%;
+}
+.navbar{
+	margin: auto;
+	width: 60%;
+}
+.navbar.transparent.navbar-inverse {
+    border-width: 0px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: transparent;
+    background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+    font-family: 'Arima Madurai', cursive;
+    font-size: 21px;
+}
+.nav li{
+	padding-left: 20px;
+}
+.astro img{
+	display: block;
+    margin: auto;     
+    width: 35%; 
+    padding-right: 10px; 
+}
+
+/*astronaut*/
+
+.astonaut{
+	-ms-transform: rotate(70deg); /* IE 9 */
+    -webkit-transform: rotate(70deg); /* Chrome, Safari, Opera */
+    transform: rotate(70deg);
+}
+
+/*Gallery*/
+
+.carousel-inner img{
+	display: block;
+	width: 35%;
+	margin: auto;
+}
+.item img{
+	border: 2px solid white;
+	border-radius: 50%;
+}
+
+/*Audio*/
+
+.music{
+	margin-top: 50px;
+}
+.music h1{
+	font-family: 'Arima Madurai', cursive;
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+}
+.audio{
+	text-align: center;
+}
+.audio h3{
+	font-family: 'Arima Madurai', cursive;
+	color: white;
+}
+audio{
+	margin-left: 25px;
+}
+.blank{
+	width: auto;
+	height: 50px;
+	border: 1px solid transparent;
+}
+
+/*Video*/
+.video h1{
+	font-family: 'Arima Madurai', cursive;
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.vid{
+	font-family: 'Arima Madurai', cursive;
+	color: white;
+}
+/*News*/
+.news{
+	font-family: 'Arima Madurai', cursive;
+	color: white;
+}
+.seperator{
+	margin: 15px;
+	border-bottom: 3px solid gray;
+}
+.seperator h1{
+	text-decoration: underline;
+}
+
+/*others*/
+
+#links{
+	margin-left: 50px;
+}
+
+.body h1{
+	font-family: 'Arima Madurai', cursive;
+	color: white;
+	text-align: center;
+	padding: 25px 0 25px 0;
+}
+.links img{
+	display: inline-block;
+	border: 2px solid white;
+	border-radius: 50%;
+	margin: auto;
+	padding: 5px;
+    width: 9%;
+}
+.shadow{
+    box-shadow: 10px 10px 25px #34675c;
+    transition: width .2s;
+    }
+    
+.shadow:hover{
+    box-shadow: 10px 10px 25px #fff;
+    width: 10%;
+}
+
+/*Band*/
+.segregator{
+	font-family: 'Arima Madurai', cursive;
+	color: white;
+	text-align: center;
+}
+.segregator h1 {
+	padding: 10px 0 10px 0;
+}
+
+
+/*Footer*/
+
+.footer img{
+	display: block;
+    margin: auto;
+	width: 3%;
+	-webkit-transition: width .1s; /* For Safari 3.1 to 6.0 */
+    transition: width .2s;
+}
+.footer img:hover{
+	display: block;
+    margin: auto;
+	width: 3.1%;
+	opacity: 0.6;
+}
